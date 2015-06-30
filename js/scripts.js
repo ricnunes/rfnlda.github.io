@@ -274,10 +274,10 @@ $(window).load(function(){
 	
 	  
 //Google Map					
-	var latlng = new google.maps.LatLng(38.799454,-9.161468);
+	var latlng = new google.maps.LatLng(51.546729,-0.1065063);
 	var settings = {
 		zoom: 17,
-		center: new google.maps.LatLng(38.799454,-9.161468), mapTypeId: google.maps.MapTypeId.ROADMAP,
+		center: new google.maps.LatLng(51.546729,-0.1065063), mapTypeId: google.maps.MapTypeId.ROADMAP,
 		mapTypeControl: false,
 		scrollwheel: false,
 		draggable: true,
@@ -298,9 +298,9 @@ $(window).load(function(){
 	var contentString = '<div id="content">'+
 		'<div id="siteNotice">'+
 		'</div>'+
-		'<h3 id="firstHeading" class="firstHeading">NEWAVE</h3>'+
+		'<h3 id="firstHeading" class="firstHeading">Ricardo</h3>'+
 		'<div id="bodyContent">'+
-		'<p>Here we are. Come to drink a coffee!</p>'+
+		'<p></p>'+
 		'</div>'+
 		'</div>';
 	var infowindow = new google.maps.InfoWindow({
@@ -478,11 +478,7 @@ $(function (){
 	jQuery('video,object').maximage('maxcover');
 	
 	
-	
-	
 
-	// To show it is dynamic html text
-	
 });
 
 
