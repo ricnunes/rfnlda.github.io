@@ -308,20 +308,20 @@ $(window).load(function(){
 	});
 	
 	var MyImageMarker = new google.maps.MarkerImage('images/marker.png',
-		new google.maps.Size(58,63),<!-- Width and height of the marker -->
+		new google.maps.Size(51,0),// Width and height of the marker 
 		new google.maps.Point(0,0),
-		new google.maps.Point(58,63)<!-- Position of the marker -->
+		new google.maps.Point(51,0) // Position of the marker
 	);
 	
 	
 	
-	var myPos = new google.maps.LatLng(38.799454,-9.161468);
+	var myPos = new google.maps.LatLng(51.546729,-0.1065063);
 	
 	var myMarker = new google.maps.Marker({
 		position: myPos,
 		map: map,
-		icon: MyImageMarker,               
-		title:"Creative News",
+		icon: MyImageMarker,
+		title:"Home",
 		zIndex: 3});
 	
 	
